@@ -1,0 +1,149 @@
+body {
+  margin: 0 auto;
+  font-family: "Arial", sans-serif;
+}
+
+.background {
+  background-image: url("Resturant.jpg");
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: blur(100%);
+}
+
+.box {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  filter: blur(100%);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width : 75%;
+  /* align-items: center; */
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  margin-right: 100%;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  padding: 200px;
+}
+
+.auth-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+form {
+  background: rgba(53, 52, 52, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  gap: 10px;
+}
+form:hover{
+  color: rgb(35, 156, 236);
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 500em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  height: 200px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  font-size:xx-large;
+  display: flex;
+flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  height: 200px;
+}
+
+.signup{
+  height:80px;
+}
+.login{
+  height:80px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 95%;
+  border-radius: 4px 4px 4px 4px;
+  background-color: black;
+  opacity: 0.67;
+  color: white;
+  border-color: solid 2px black;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background: #5ce263;
+}
+
+form:hover{
+  color: rgb(0, 179, 255);
+}
+
+#icon2{
+  color: white;
+  margin-left: 15px;
+}
+
+#icon1{
+  color: white;
+}
+
+#checkbox{
+  display: flex;
+width:200px;
+height:30px;
+
+}
+
+#forgetPassword{
+  margin:0 auto;
+}
+
+  @media (min-width: 280px) and (max-width: 650px) {
+  .content {
+    width: 400px;
+  }
+}
